@@ -10,6 +10,7 @@
 		DE9365E9191EE047000F4785 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE9365E8191EE047000F4785 /* Foundation.framework */; };
 		DE9365EC191EE047000F4785 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9365EB191EE047000F4785 /* main.m */; };
 		DE9365F0191EE047000F4785 /* goingThruNotes.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = DE9365EF191EE047000F4785 /* goingThruNotes.1 */; };
+		DE9365F8191EE8BC000F4785 /* concole.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9365F7191EE8BC000F4785 /* concole.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		DE9365EB191EE047000F4785 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DE9365EE191EE047000F4785 /* goingThruNotes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "goingThruNotes-Prefix.pch"; sourceTree = "<group>"; };
 		DE9365EF191EE047000F4785 /* goingThruNotes.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = goingThruNotes.1; sourceTree = "<group>"; };
+		DE9365F6191EE8BC000F4785 /* concole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = concole.h; sourceTree = "<group>"; };
+		DE9365F7191EE8BC000F4785 /* concole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = concole.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				DE9365EB191EE047000F4785 /* main.m */,
+				DE9365F6191EE8BC000F4785 /* concole.h */,
+				DE9365F7191EE8BC000F4785 /* concole.m */,
 				DE9365EF191EE047000F4785 /* goingThruNotes.1 */,
 				DE9365ED191EE047000F4785 /* Supporting Files */,
 			);
@@ -140,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE9365EC191EE047000F4785 /* main.m in Sources */,
+				DE9365F8191EE8BC000F4785 /* concole.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
